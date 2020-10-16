@@ -22,14 +22,6 @@
   height:50%;
 }
 
-.hobby {
-  transition:transform 0.5s;
-}
-
-.hobby:hover {
-  transform: scale(1.2) rotate(6deg);
-}
-
 .custom-button {
   border: none;
   padding: 10px 35px;
@@ -70,4 +62,33 @@
   border-bottom: 2px solid orangered;
   border-right: 2px solid orangered;
   transition: all 1s;
+}
+
+.hobby {
+   margin:0;
+   padding:0;
+   background:#607d8b;
+   padding: 3% 0;
+}
+
+.card img {
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 8px;
+}
+.card {
+  border-radius: 12px;
+  padding: 2%;
+  margin-bottom: 6%;
+  background: #fff;
+  box-shadow: 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: inset 10px 10px 24px -12px (0, 0, 0, 0.75);
+}
+
+.card:hover img {
+  transform: scale(0.9);
 }
