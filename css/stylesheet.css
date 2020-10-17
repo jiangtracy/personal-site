@@ -22,10 +22,24 @@
   height:50%;
 }
 
+.icon {
+  box-shadow: 0 5px 15px -5px #00000070;
+  position: relative;
+}
+
+.icon i {
+  transition: all 0.2s;
+}
+
+.icon:hover i { 
+  transform: scale(1.2);
+  color:  #37474f;
+}
+
 .custom-button {
   border: none;
   padding: 10px 35px;
-  background-color: #ffaaa5,;
+  background-color: #ffaaa5;
   color: #37474f;
   font-size: 18px;
   text-transform: uppercase;
